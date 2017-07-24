@@ -61,4 +61,7 @@ public class Car {
         price = cost;
     }
 
+    public String toString(){
+        return year + "\t" +  make + "\t" +  model + "\t" +  "$" +  price;
+    }
         }
